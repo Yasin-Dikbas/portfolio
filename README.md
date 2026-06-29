@@ -57,17 +57,17 @@ Personal Portfolio Website developed with HTML & CSS
 
 # 📖 About The Project
 
-This is my personal portfolio website built with **HTML5** and **CSS3**.
+This is my personal portfolio website built with HTML5 and CSS3.
 
-The project showcases my frontend development skills, personal information, and projects through a modern, clean, and user-friendly interface.
+The project showcases my frontend development skills, personal profile, and portfolio through a modern, clean, responsive, and user-friendly interface.
 
 It serves as my first complete frontend portfolio and will continue to evolve as I learn new technologies such as JavaScript and React.
-
 ---
 
 # ✨ Features
 
 * Modern Dark Theme
+* Responsive Design
 * Hero Section
 * About Me Section
 * Project Cards
@@ -77,7 +77,6 @@ It serves as my first complete frontend portfolio and will continue to evolve as
 * Semantic HTML Structure
 * Organized CSS File
 * Fully Custom Design
-* Desktop-first layout
 
 ---
 
@@ -126,10 +125,8 @@ portfolio/
 * Smooth scrolling
 * Contact Form
 * Better Animations
-* Responsive Design
 * Dark / Light Mode
 * React Version
-* Improve responsiveness across different screen sizes
 
 ---
 
@@ -153,17 +150,14 @@ Currently learning:
 
 📧 Email: **dikbasyasin6@gmail.com**
 
-💼 LinkedIn: https://tr.linkedin.com/in/yasin-dikba%C5%9F-a9a001384
+💼 LinkedIn: [Yasin Dikbaş](https://tr.linkedin.com/in/yasin-dikba%C5%9F-a9a001384)
 
-🐙 GitHub: **https://github.com/Yasin-Dikbas**
+🐙 GitHub: [Yasin-Dikbas](https://github.com/Yasin-Dikbas)
 
 🌍 Portfolio: **https://yasin-dikbas.github.io/portfolio/**
 
 ---
 
-## 📝 Note
-
-This project is currently optimized for desktop devices. Responsive support for tablets and mobile devices is planned for future updates.
 
 # ⭐ Support
 
