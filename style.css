@@ -22,13 +22,13 @@ hr {
     padding: 18px 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 20px;
 }
 
 .logo {
     font-size: 20px;
     white-space: nowrap;
+    margin-right: auto;
 }
 
 .nav-links {
@@ -36,7 +36,7 @@ hr {
     display: flex;
     align-items: center;
     gap: 22px;
-    margin-left: 52%;
+   
 }
 
 .nav-links a {
@@ -380,78 +380,24 @@ hr {
 
 @media (max-width: 600px) {
     .navbar {
-        padding: 15px 20px;
         flex-direction: column;
+        align-items: center;
+        padding: 20px;
     }
 
     .logo {
-        font-size: 18px;
+        margin-right: 0;
+        font-size: 22px;
     }
 
     .nav-links {
-        flex-direction: column;
-        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
     }
 
     .cv-btn {
-        width: 120px;
-    }
-
-    .hero {
-        padding: 40px 20px;
-        min-height: auto;
-    }
-
-    .hero-left h1 {
-        font-size: 36px;
-    }
-
-    .title {
-        font-size: 24px;
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .description {
-        font-size: 14px;
-    }
-
-    .buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .btn1,
-    .btn2 {
-        width: 180px;
-    }
-
-    .hero-right img {
-        max-width: 330px;
-    }
-
-    .social-icons {
-        padding: 0 20px 35px;
-    }
-
-    .content {
-        padding: 35px 20px;
-    }
-
-    .projects-header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .project-list {
-        flex-direction: column;
-    }
-
-    .project-card {
-        width: 100%;
-    }
-
-    .project-card img {
-        height: 180px;
+        width: 140px;
+        height: 42px;
     }
 }
