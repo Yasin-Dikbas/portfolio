@@ -46,23 +46,12 @@ Personal Portfolio Website developed with HTML & CSS
 
 # 📸 Preview
 
+<img width="1896" height="617" alt="image" src="https://github.com/user-attachments/assets/23f4b20d-0429-40a3-92aa-636131a52809" />
 
 <img width="1898" height="557" alt="image" src="https://github.com/user-attachments/assets/3c0d1c88-65b4-44a3-8e99-77feefe51705" />
 
-<img width="1896" height="617" alt="image" src="https://github.com/user-attachments/assets/23f4b20d-0429-40a3-92aa-636131a52809" />
 
 
-
-
-
-
-<p align="center">
-
-<img src="resimler/preview1.png" width="900">
-<br><br>
-<img src="resimler/preview2.png" width="900">
-
-</p>
 
 ---
 
