@@ -1,157 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer" />
+    <title>Yasin Dikbaş | Portfolio</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
 
-   
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <nav>
-        <h3 style="margin-right: 50%;">Yasin Dikbaş</h3>
+    <nav class="navbar">
+        <h3 class="logo">Yasin Dikbaş</h3>
 
-        <ul>
-          <li><a href="#"> Ana Sayfa</a></li>
-          <li><a href="#"> Hakkımda</a></li>
-          <li><a href="#"> Yetenekler</a></li>
-          <li><a href="#"> Projeler</a></li>
-          <li><a href="#"> İletişim</a></li>
+        <ul class="nav-links">
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Hakkımda</a></li>
+            <li><a href="#">Yetenekler</a></li>
+            <li><a href="#">Projeler</a></li>
+            <li><a href="#">İletişim</a></li>
         </ul>
 
-        <button>CV indir</button>
+        <button class="cv-btn">CV indir</button>
     </nav>
-<hr style="margin-top: -8px;">
 
+    <hr>
 
-<div class="hero">
+    <section class="hero">
+        <div class="hero-left">
+            <p class="hello">Merhaba, ben</p>
+            <h1>Yasin Dikbaş</h1>
 
-<div class="sol">
+            <div class="title">
+                <span>Frontend</span>
+                <span>Developer</span>
+            </div>
 
-<p style="color: #6038C4;font-size: 20px;margin-top: -100px;">Merhaba,ben </p> <br>
+            <div class="description">
+                <p>Modern ve kullanıcı dostu web siteleri oluşturuyorum.</p>
+                <p>HTML, CSS, JavaScript ve React ile çalışıyorum.</p>
+            </div>
 
-<p style="color: #F4F4F5; font-size: 45px; margin-top: -30px; font-weight: bold; ">Yasin Dikbaş</p>
-
-
-<div class="yazi">
-<p style="color: #6038C4;">Frontend </p>
-<p style="color: #8B5CF6;">Developer</p> <br>
-</div>
-
-<div class="aciklama">
-<p>Modern ve kullanıcı dostu web siteleri oluşturuyorum.</p> 
-<p>HTML,CSS,JavaScript ve React ile çalışıyorum </p> <br>
-</div>
-
-<div class="buton">
-<button class="btn1">Projeleri Gör <i class="fa-solid fa-arrow-right"></i></button> 
-<button class="btn2">İletişime Geç</button>
-</div>
-
-</div>
-
-<div class="sag">
-    <img src="resimler/portfolyo.png" alt="resim bulunamadı">
-
-</div>
-</div>
-
-<div class="simge">
-<ul>
-    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-    <li><a href="#"><i class="fa-brands fa-square-github"></i></a></li>
-    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-    <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
-</ul>
-</div>
-
-
-<div class="alt">
-
-    <div class="about">
-    <h2><i style="color: #5B21B6;" class="fa-regular fa-user"></i> Hakkımda</h2>   
-    <p  >Merhaba! Ben Yasin Dikbaş frontend geliştirici olarak modern ve etkileyici web deneyimleri oluşturmayı seviyorum.Kod yazmak benim için bir problem çözme sanatı.</p>
-   
-  
-    <div class="item">
-        <div class="icon"><i class="fa-regular fa-calendar"></i></div>
-
-        <div>
-            <h4>Doğum Tarihi</h4>
-            <p>02.08.2005</p>
+            <div class="buttons">
+                <button class="btn1">Projeleri Gör <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="btn2">İletişime Geç</button>
+            </div>
         </div>
+
+        <div class="hero-right">
+            <img src="resimler/portfolyo.png" alt="Portfolio görseli">
+        </div>
+    </section>
+
+    <div class="social-icons">
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-github"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+        </ul>
     </div>
 
-    <div class="item">
-        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+    <section class="content">
+        <div class="about">
+            <h2><i class="fa-regular fa-user"></i> Hakkımda</h2>
 
-        <div>
-            <h4>Konum</h4>
-            <p>Kuşadası/Aydın</p>
-        </div>
-    </div>
+            <p>
+                Merhaba! Ben Yasin Dikbaş. Frontend geliştirici olarak modern ve etkileyici web deneyimleri oluşturmayı seviyorum.
+                Kod yazmak benim için bir problem çözme sanatı.
+            </p>
 
-     <div class="item">
-        <div class="icon"><i class="fa-regular fa-envelope"></i></i></div>
+            <div class="item">
+                <div class="icon"><i class="fa-regular fa-calendar"></i></div>
+                <div>
+                    <h4>Doğum Tarihi</h4>
+                    <p>02.08.2005</p>
+                </div>
+            </div>
 
-        <div>
-            <h4>E-posta</h4>
-            <p>dikbasyasin6@gmail.com</p>
-        </div>
-    </div>
+            <div class="item">
+                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                    <h4>Konum</h4>
+                    <p>Kuşadası / Aydın</p>
+                </div>
+            </div>
 
-  <button>Daha Fazla Hakkımda</button>
-    </div>
+            <div class="item">
+                <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+                <div>
+                    <h4>E-posta</h4>
+                    <p>dikbasyasin6@gmail.com</p>
+                </div>
+            </div>
 
-
-
-    <div class="project">
-        <div class="sag1">
-        <p><i style="margin-right: 5px;color: #6038C4;" class="fa-solid fa-box-archive"></i>Projelerim</p>
-        <a href="#">Tüm Projeleri Gör <i class="fa-solid fa-arrow-right"></i> </a>
-        </div>
-
-<div class="project-list">
-        <div class="project-card">
-        <img src="resimler/dasboard-UI.jpg" alt="resim bulunamadı">
-        <h3>Dashboard UI</h3>
-        <p style="color: #5B21B6;margin-top: -9px;font-size: 16px;">HTML,CSS,JavaScript</p>
-        <p>Admin panel ara yüzü tasarımı ve geliştirmesi</p>
-        <a style="font-size: 16px;" href="#"> Canlı Demo <i class="fa-solid fa-arrow-right"></i></a>
-        <i style="font-size: 20px;" class="fa-brands fa-github"></i>
+            <button>Daha Fazla Hakkımda</button>
         </div>
 
-        <div class="project-card">
-        <img src="resimler/e-commerece.jpg" alt="resim bulunamadı">
-        <h3>Dashboard UI</h3>
-        <p style="color: #5B21B6;margin-top: -9px;font-size: 16px;">HTML,CSS,JavaScript</p>
-        <p>Responsive e-ticaret web sitesi tasarımı.</p>
-        <a style="font-size: 16px;" href="#"> Canlı Demo <i class="fa-solid fa-arrow-right"></i></a>
-        <i style="font-size: 20px;" class="fa-brands fa-github"></i>
+        <div class="projects">
+            <div class="projects-header">
+                <p><i class="fa-solid fa-box-archive"></i> Projelerim</p>
+                <a href="#">Tüm Projeleri Gör <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="project-list">
+
+                <div class="project-card">
+                    <img src="resimler/dasboard-UI.jpg" alt="Dashboard UI">
+                    <h3>Dashboard UI</h3>
+                    <p class="tech">HTML, CSS, JavaScript</p>
+                    <p>Admin panel arayüzü tasarımı ve geliştirmesi.</p>
+
+                    <div class="card-bottom">
+                        <a href="#">Canlı Demo <i class="fa-solid fa-arrow-right"></i></a>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="resimler/e-commerece.jpg" alt="E-Commerce Website">
+                    <h3>E-Commerce Site</h3>
+                    <p class="tech">HTML, CSS, JavaScript</p>
+                    <p>Responsive e-ticaret web sitesi tasarımı.</p>
+
+                    <div class="card-bottom">
+                        <a href="#">Canlı Demo <i class="fa-solid fa-arrow-right"></i></a>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="resimler/personal portfolyo.png" alt="Personal Portfolio">
+                    <h3>Personal Portfolio</h3>
+                    <p class="tech">HTML, CSS, JavaScript</p>
+                    <p>Kişisel portfolyo web sitesi.</p>
+
+                    <div class="card-bottom">
+                        <a href="#">Canlı Demo <i class="fa-solid fa-arrow-right"></i></a>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </section>
 
-        <div class="project-card">
-        <img src="resimler/personal portfolyo.png" alt="resim bulunamadı">
-        <h3>Dashboard UI</h3>
-        <p style="color: #5B21B6;margin-top: -9px;font-size: 16px;">HTML,CSS,JavaScript</p>
-        <p>Kişisel portfolyo web sitesi.</p>
-        <a style="font-size: 16px;" href="#"> Canlı Demo <i class="fa-solid fa-arrow-right"></i></a>
-        <i style="font-size: 20px;margin-top:20px" class="fa-brands fa-github"></i>
-        </div>
-
-
-
-</div>
-    </div>
-</div>
-    
 </body>
 </html>
